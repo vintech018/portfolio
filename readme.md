@@ -1,41 +1,53 @@
-<div align="center">
-  <h3 align="center">Aryan's 3D Portfolio</h3>
-  <p align="center">
-    A visually stunning, modern 3D portfolio showcasing skills and projects.
-  </p>
-</div>
+# Vaibhav Chawla - 3D Developer Portfolio
 
-## 🚨 Disclaimer
-**This is a dummy portfolio initialized for GitHub.** It demonstrates a beautiful interactive web design crafted with React, Three.js, and Tailwind CSS. The content within has been adapted for display purposes.
-
-## 📸 Preview
-
-![Portfolio Screenshot](./public/images/screenshot.png)
+A visually stunning, modern 3D portfolio showcasing my skills, experience, and projects. 
+This portfolio is built using React, Three.js, and styled with Tailwind CSS to create a memorable and highly interactive user experience.
 
 ## 🚀 Technologies Used
-- **React.js**
-- **Three.js & React Three Fiber**
-- **Tailwind CSS**
-- **Framer Motion**
+- **React.js** (Vite + React 19)
+- **Three.js & React Three Fiber** (3D models, scenes, and post-processing)
+- **Tailwind CSS** (v4.0 for modern, responsive styling)
+- **GSAP** (Smooth scroll and layout animations)
 
 ## 💻 Getting Started
-To view this project locally:
+
+Follow these steps to set up and run the project locally on your machine.
+
+### Prerequisites
+Make sure you have Node.js and npm installed on your system.
+
+### Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/3d-portfolio.git
+   git clone https://github.com/vintech018/portfolio.git
+   cd portfolio
    ```
-2. Install dependencies:
+
+2. Install the necessary dependencies:
    ```bash
    npm install
    ```
+
 3. Run the development server:
    ```bash
    npm run dev
    ```
 
-## 👨‍💻 Personalization
-This project has been heavily customized specifically for **Aryan**. All branding, references, and styling have been tweaked to reflect this targeted portfolio design.
+4. Open your browser and navigate to the local server, typically `http://localhost:5173`.
+
+## 📦 Building for Production
+
+If you want to build the static files for production (e.g., to deploy on Vercel, Netlify, or GitHub Pages), simply run:
+
+```bash
+npm run build
+```
+
+The output will be generated inside the `dist` directory and will be ready to serve using any static web host.
+
+## 📸 Preview
+![Portfolio Screenshot](./public/images/screenshot.png)
 
 ---
-*Made by Aryan* <3
+*Developed by Vaibhav Chawla*

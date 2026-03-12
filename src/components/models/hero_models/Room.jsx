@@ -62,7 +62,7 @@ export function Room({
         />
       </EffectComposer>
 
-      {/* Aryan Text */}
+      {/* Vaibhav Text */}
       <Text
         position={[0, 4, -2]} // Adjusted position to be visible
         fontSize={0.5} // Smaller size
@@ -71,7 +71,7 @@ export function Room({
         anchorY="middle"
         font="/fonts/PlayfairDisplay-Italic.ttf" // Local font
       >
-        Aryan's Desk
+        Vaibhav's Desk
       </Text>
 
       <mesh

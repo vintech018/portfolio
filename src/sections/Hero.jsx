@@ -27,7 +27,7 @@ const Hero = () => {
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
-                Shaping
+                Software Engineer
                 <span className="slide">
                   <span className="wrapper">
                     {words.map((word, index) => (
@@ -46,19 +46,35 @@ const Hero = () => {
                   </span>
                 </span>
               </h1>
-              <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
+              <h1>building real-time systems</h1>
+              <h1>and financial infrastructure.</h1>
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Aryan, an 11th-grade student from India learning new skills.
+              Hi, I’m Vaibhav Chawla. Currently studying at Chitkara University.
             </p>
 
-            <Button
-              text="See My Work"
-              className="md:w-80 md:h-16 w-60 h-12"
-              id="counter"
-            />
+            <div className="flex flex-wrap items-center gap-5 mt-2">
+              <Button
+                text="View Projects"
+                className="md:w-60 md:h-16 w-48 h-12"
+                id="counter"
+              />
+              <a
+                href="https://github.com/vintech018"
+                target="_blank"
+                rel="noreferrer"
+                className="md:w-60 md:h-16 w-48 h-12 cta-wrapper group"
+              >
+                <div className="cta-button w-full h-full border-2 border-white/20 bg-transparent">
+                  <div className="bg-circle !bg-white/10" />
+                  <p className="text !translate-x-0 group-hover:!translate-x-0 !text-white">GitHub</p>
+                  <div className="arrow-wrapper">
+                    <img src="/images/arrow-down.svg" alt="arrow" className="-rotate-90 group-hover:translate-y-0 translate-y-0 !size-6" />
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         </header>
 

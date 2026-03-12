@@ -1,10 +1,10 @@
 const navLinks = [
   {
-    name: "Work",
+    name: "Projects",
     link: "#work",
   },
   {
-    name: "Experience",
+    name: "Open Source",
     link: "#experience",
   },
   {
@@ -12,8 +12,8 @@ const navLinks = [
     link: "#skills",
   },
   {
-    name: "Testimonials",
-    link: "#testimonials",
+    name: "Contact",
+    link: "#contact",
   },
 ];
 
@@ -29,7 +29,7 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 3, suffix: "+", label: "Years of Coding" },
+  { value: 1, suffix: "+", label: "Year of Coding" },
   { value: 10, suffix: "+", label: "Projects Built" },
   { value: 5, suffix: "+", label: "Hackathons" },
   { value: 100, suffix: "%", label: "Dedication" },
@@ -114,31 +114,31 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "React Developer",
+    name: "Frontend (React, Next.js, HTML, CSS)",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
+    name: "Databases (PostgreSQL, MySQL)",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Developer",
+    name: "Backend (Node.js, Express)",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "Tools (Git, Docker, Vercel)",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Version Control (GitHub)",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -147,39 +147,27 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Aryan brought creativity and technical expertise to the team, significantly improving our school website. His work has been invaluable in delivering a better experience for students.",
+    review: "Contributed to popular open source repositories.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "School Tech Club Lead",
-    date: "January 2024 - Present",
+    title: "Open Source Contributor",
+    date: "Ongoing",
     responsibilities: [
-      "Led the development of the school's official website.",
-      "Collaborated with teachers to ensure accurate content.",
-      "Organized coding workshops for junior students.",
+      "Contributed to Bittermelon (github.com/vintech018/Bittermelon).",
+      "Contributed to AKHQ (github.com/vintech018/akhq).",
+      "Collaborated with developers globally to improve software.",
     ],
   },
   {
-    review: "Aryan’s contributions to our hackathon team were outstanding. He approaches challenges with a problem-solving mindset and delivers results.",
+    review: "Maintained a collection of solved data structure and algorithm problems to ensure top-notch problem-solving skills.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Hackathon Team Lead",
-    date: "June 2023 - December 2023",
+    title: "Algorithms & DSA",
+    date: "Continuous Practice",
     responsibilities: [
-      "Led the team to win 2nd prize in the regional hackathon.",
-      "Built the core logic for the project using Python.",
-      "Presented the final product to a panel of judges.",
-    ],
-  },
-  {
-    review: "Aryan’s dedication to learning and building personal projects is impressive. He consistently delivers high-quality code and innovative solutions.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "Student Developer",
-    date: "March 2022 - May 2023",
-    responsibilities: [
-      "Built multiple personal projects to learn new technologies.",
-      "Experimented with game development and web design.",
-      "Active participant in online coding communities.",
+      "Solved comprehensive problems on platforms like LeetCode.",
+      "Maintained repository at github.com/vintech018/leetcode-solutions.",
+      "Focused on algorithm optimization and time-space complexity.",
     ],
   },
 ];
@@ -248,18 +236,17 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
+    link: "https://www.instagram.com/badtameeezzdil/",
   },
   {
     name: "x",
     imgPath: "/images/x.png",
+    link: "https://x.com/vintechwork",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link: "https://www.linkedin.com/in/vaibhav-chawla-124019243/",
   },
 ];
 

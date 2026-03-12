@@ -96,8 +96,8 @@ const Experience = () => {
     >
       <div className="w-full h-full md:px-20 px-5">
         <TitleHeader
-          title="Professional Work Experience"
-          sub="💼 My Career Overview"
+          title="Open Source & Contributions"
+          sub="💼 My Contributions & Learning"
         />
         <div className="mt-32 relative">
           <div className="relative z-50 xl:space-y-32 space-y-10">
@@ -129,13 +129,30 @@ const Experience = () => {
                           Responsibilities
                         </p>
                         <ul className="list-disc ms-5 mt-5 flex flex-col gap-5 text-white-50">
-                          {card.responsibilities.map(
-                            (responsibility, index) => (
+                          {card.responsibilities.map((responsibility, index) => {
+                            // Extract parts containing github.com links
+                            const parts = responsibility.split(/(github\.com\/[^\s)]+)/);
+                            return (
                               <li key={index} className="text-lg">
-                                {responsibility}
+                                {parts.map((part, i) => {
+                                  if (part.startsWith("github.com")) {
+                                    return (
+                                      <a
+                                        key={i}
+                                        href={`https://${part}`}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="text-blue-400 hover:underline"
+                                      >
+                                        {part}
+                                      </a>
+                                    );
+                                  }
+                                  return part;
+                                })}
                               </li>
-                            )
-                          )}
+                            );
+                          })}
                         </ul>
                       </div>
                     </div>
